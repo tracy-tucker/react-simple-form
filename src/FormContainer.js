@@ -30,7 +30,7 @@ class FormContainer extends Component {
   render() {
     return (
       <div>
-        <FormComponent />
+        <FormComponent handleChange={this.handleChange} {...this.state} />
       </div>
     );
   }
